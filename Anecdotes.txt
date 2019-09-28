@@ -1,0 +1,1 @@
+linux 下输入 who am i  和 who mom likes 可显示当前用户
