@@ -34,6 +34,18 @@ ctrl+s暂停终端  ctrl+q恢复
 
 
 
+在命令行环境中无GUI，加入以下代码可避免出错，并且在可生成图片后用plt.savefig发送到有GUI的系统上打卡
+
+```python
+import matplotlib as mpl
+mpl.use('Agg')
+......
+plt.show()
+plt.savefig('/home/pycode/img1.png')
+```
+
+
+
 
 
 ### vim
